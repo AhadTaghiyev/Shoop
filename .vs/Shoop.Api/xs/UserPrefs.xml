@@ -1,0 +1,7 @@
+﻿<Properties StartupConfiguration="{0B02CFBB-AAC8-4B55-AAA5-5485CF6E3774}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Shoop.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Shoop.Data FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Shoop.Service FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Shoop.Api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

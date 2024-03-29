@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QEHvtV78Uui33l9MXwhbZYiQLlwxM3yR3H/0qzxin0YWHuJvcUCcGQTuhDnY3AHNRFODi7Gfl0GPkfJOdvFAHw==",
+  "dgSpecHash": "WtWWBP6kinQI3tX8ChjBdy8useIaSSMSfoOg7aW25KkbpOFMAe+dKkOBguaLsUYShRoDs7B9fub1LlxO8+dFxA==",
   "success": true,
-  "projectFilePath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj",
+  "projectFilePath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Shoop.Api.props" />
+</Project>

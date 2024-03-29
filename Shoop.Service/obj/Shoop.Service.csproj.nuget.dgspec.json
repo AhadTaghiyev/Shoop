@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Service/Shoop.Service.csproj": {}
+    "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/Shoop.Service.csproj": {}
   },
   "projects": {
-    "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj": {
+    "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj",
+        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj",
         "projectName": "Shoop.Core",
-        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj",
+        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj",
         "packagesPath": "/Users/ehedtagiyev/.nuget/packages/",
-        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/obj/",
+        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ehedtagiyev/.nuget/NuGet/NuGet.Config"
@@ -58,14 +58,14 @@
         }
       }
     },
-    "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Data/Shoop.Data.csproj": {
+    "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Data/Shoop.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Data/Shoop.Data.csproj",
+        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Data/Shoop.Data.csproj",
         "projectName": "Shoop.Data",
-        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Data/Shoop.Data.csproj",
+        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Data/Shoop.Data.csproj",
         "packagesPath": "/Users/ehedtagiyev/.nuget/packages/",
-        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Data/obj/",
+        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ehedtagiyev/.nuget/NuGet/NuGet.Config"
@@ -81,8 +81,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj": {
-                "projectPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj"
+              "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj": {
+                "projectPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj"
               }
             }
           }
@@ -96,6 +96,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.28, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -108,6 +118,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -116,14 +129,14 @@
         }
       }
     },
-    "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Service/Shoop.Service.csproj": {
+    "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/Shoop.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Service/Shoop.Service.csproj",
+        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/Shoop.Service.csproj",
         "projectName": "Shoop.Service",
-        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Service/Shoop.Service.csproj",
+        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/Shoop.Service.csproj",
         "packagesPath": "/Users/ehedtagiyev/.nuget/packages/",
-        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Service/obj/",
+        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ehedtagiyev/.nuget/NuGet/NuGet.Config"
@@ -139,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Data/Shoop.Data.csproj": {
-                "projectPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Data/Shoop.Data.csproj"
+              "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Data/Shoop.Data.csproj": {
+                "projectPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Data/Shoop.Data.csproj"
               }
             }
           }

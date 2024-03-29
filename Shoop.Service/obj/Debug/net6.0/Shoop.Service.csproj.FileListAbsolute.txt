@@ -1,0 +1,17 @@
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Service.deps.json
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Service.dll
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Service.pdb
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Core.dll
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Data.dll
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Data.pdb
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/bin/Debug/net6.0/Shoop.Core.pdb
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.csproj.AssemblyReference.cache
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.AssemblyInfoInputs.cache
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.AssemblyInfo.cs
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.csproj.CoreCompileInputs.cache
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.csproj.CopyComplete
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.dll
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/refint/Shoop.Service.dll
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/Shoop.Service.pdb
+/Users/ehedtagiyev/Desktop/Shoop/Shoop.Service/obj/Debug/net6.0/ref/Shoop.Service.dll

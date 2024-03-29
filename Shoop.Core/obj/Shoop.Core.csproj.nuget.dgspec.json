@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj": {}
+    "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj": {}
   },
   "projects": {
-    "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj": {
+    "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj",
+        "projectUniqueName": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj",
         "projectName": "Shoop.Core",
-        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/Shoop.Core.csproj",
+        "projectPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/Shoop.Core.csproj",
         "packagesPath": "/Users/ehedtagiyev/.nuget/packages/",
-        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/obj/",
+        "outputPath": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ehedtagiyev/.nuget/NuGet/NuGet.Config"

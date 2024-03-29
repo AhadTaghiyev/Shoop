@@ -1,4 +1,9 @@
-﻿var builder = WebApplication.CreateBuilder(args);
+﻿
+using Shoop.Data;
+using Shoop.Data.Contexts;
+using Shoop.Service;
+
+var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
@@ -6,6 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.AddDataLayerServices();
+builder.AddServiceLayerServices();
+//builder.Services.AddDbContext
+
 
 var app = builder.Build();
 

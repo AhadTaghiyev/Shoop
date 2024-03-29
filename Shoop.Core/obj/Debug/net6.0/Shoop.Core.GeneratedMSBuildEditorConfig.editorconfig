@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shoop.Core
-build_property.ProjectDir = /Users/ehedtagiyev/Desktop/Shoop.Api/Shoop.Core/
+build_property.ProjectDir = /Users/ehedtagiyev/Desktop/Shoop/Shoop.Core/

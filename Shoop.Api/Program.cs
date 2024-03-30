@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.OpenApi.Models;
 using Shoop.Data;
 using Shoop.Data.Contexts;
 using Shoop.Service;
@@ -10,7 +11,30 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(option =>
+{
+    option.AddSecurityDefinition("Bearer", new Microsoft.OpenApi.Models.OpenApiSecurityScheme()
+    {
+        Name="Authorization",
+        Type=Microsoft.OpenApi.Models.SecuritySchemeType.ApiKey,
+        Scheme= "Bearer",
+        BearerFormat="JWT",
+        In=Microsoft.OpenApi.Models.ParameterLocation.Header,
+        Description="Enter token like that  'Bearer'+{token}"
+    });
+
+    option.AddSecurityRequirement(new OpenApiSecurityRequirement
+{
+    {
+        new OpenApiSecurityScheme
+        {
+            Reference = new OpenApiReference {
+                Type = ReferenceType.SecurityScheme,
+                Id = "Bearer" }
+        }, new List<string>() }
+});
+
+});
 builder.AddDataLayerServices();
 builder.AddServiceLayerServices();
 //builder.Services.AddDbContext
@@ -24,9 +48,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

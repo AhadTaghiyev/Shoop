@@ -11,11 +11,18 @@
     <None Remove="Entities\BaseEntities\" />
     <None Remove="Exceptions\" />
     <None Remove="Dtos\" />
+    <None Remove="Dtos\CategoryDtos\" />
+    <None Remove="Dtos\ProductDtos\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Entities\BaseEntities\" />
     <Folder Include="Exceptions\" />
     <Folder Include="Dtos\" />
+    <Folder Include="Dtos\CategoryDtos\" />
+    <Folder Include="Dtos\ProductDtos\" />
+  </ItemGroup>
+    <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 </Project>

@@ -16,6 +16,7 @@ namespace Shoop.Service
 		public static void AddServiceLayerServices(this WebApplicationBuilder builder)
 		{
 			builder.Services.AddScoped<ICategoryService, CategoryService>();
+			builder.Services.AddScoped<IProductService, ProductService>();
         }
 	}
 }

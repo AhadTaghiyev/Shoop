@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Api/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/ehedtagiyev/Desktop/Shoop/Shoop.Api/wwwroot/Images/12fc2075-b1ad-44d4-856e-bc6dae87d4295jfphaap9r_28904.jpg.jpg",
+      "PackagePath": "staticwebassets/Images/12fc2075-b1ad-44d4-856e-bc6dae87d4295jfphaap9r_28904.jpg.jpg"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.Shoop.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.Shoop.Api.props",
+      "PackagePath": "build\\Shoop.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.Shoop.Api.props",
+      "PackagePath": "buildMultiTargeting\\Shoop.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.Shoop.Api.props",
+      "PackagePath": "buildTransitive\\Shoop.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
